@@ -1,3 +1,4 @@
 .specstory/
 .cursorindexingignore
 module-template.json
+.DS_Store
