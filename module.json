@@ -1,0 +1,115 @@
+{
+  "id": "archive-storage",
+  "title": "Archive Storage",
+  "version": "#{VERSION}#",
+  "library": "false",
+  "manifestPlusVersion": "1.2.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "Christopher Allbritton",
+      "email": "callbritton@mac.com",
+      "discord": "callbritton",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "archive-journal-entries",
+      "label": "Archive Journal Entries",
+      "path": "packs/archive-journal-entries",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "archive-scenes",
+      "label": "Archive Scenes",
+      "path": "packs/archive-scenes",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "archive-tables",
+      "label": "Archive Tables",
+      "path": "packs/archive-tables",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "archive-macros",
+      "label": "Archive Macros",
+      "path": "packs/archive-macros",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "archive-playlists",
+      "label": "Archive Playlists",
+      "path": "packs/archive-playlists",
+      "type": "Playlist",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "archive-items",
+      "label": "Archive Items",
+      "path": "packs/archive-items",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "archive-adventures",
+      "label": "Archive Adventures",
+      "path": "packs/archive-adventures",
+      "type": "Adventure",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "archive-actors",
+      "label": "Archive Actors",
+      "path": "packs/archive-actors",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    }
+  ],
+  "url": "#{URL}#",
+  "manifest": "#{MANIFEST}#",
+  "download": "#{DOWNLOAD}#",
+  "license": "LICENSE",
+  "readme": "README.md",
+  "media": [
+    {
+      "type": "icon",
+      "url": "https://avatars2.githubusercontent.com/u/71292812?s=400&u=ccdb4eeb7abf551ca8f314e5a9bfd0479a4d3d41&v=4"
+    }
+  ]
+}
